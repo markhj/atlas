@@ -18,7 +18,11 @@
               "properties": {
                 "sovereignty": {
                   "type": "string",
-                  "enum": ["sovereign_country", "autonomous_territory"]
+                  "enum": [
+                    "sovereign_country",
+                    "autonomous_territory",
+                    "partially_recognized_state"
+                  ]
                 }
               },
               "additionalProperties": false

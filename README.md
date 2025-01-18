@@ -1,7 +1,10 @@
-# Atlas
+![](https://res.cloudinary.com/drfztvfdh/image/upload/v1737202225/Github/atlas-banner_zekpyh.jpg)
 
-This repository contains data about countries, making it easy to whip
-up APIs or gain access to relevant data.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?label=license)
+
+**Atlas** is a collection of data about countries &mdash; basic information,
+political status, and so forth.  Among many other things, the data can be used
+for APIs, games, and statistics.
 
 ## 📗 Documentation
 
@@ -12,7 +15,8 @@ Find the [full documentation](https://markhj.github.io/atlas/) on GitHub pages.
 When it comes to disputes and territories, we will do our best to
 display the transparency and disagreements as part of the data.
 
-If you believe we have made a mistake, please open an issue.
+If you believe we have made a mistake, please
+[open an issue](https://github.com/markhj/atlas/issues).
 However, please note that we do not change data based on political
 _opinion_. We work from a basis of **broad recognition**.
 
