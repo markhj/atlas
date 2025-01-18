@@ -1,0 +1,3 @@
+# Atlas documentation
+
+Welcome!

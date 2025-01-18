@@ -1,0 +1,175 @@
+{
+  "$schema": "../schemas/entities-schema.json",
+  "data": {
+    "DNK": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "DK",
+          "alpha_3": "DNK",
+          "numeric": 208
+        }
+      },
+      "name": {
+        "common_names": [
+          "Denmark"
+        ]
+      }
+    },
+    "GRL": {
+      "status": {
+        "sovereignty": "autonomous_territory"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "GL",
+          "alpha_3": "GRL",
+          "numeric": 304
+        }
+      },
+      "name": {
+        "common_names": [
+          "Greenland"
+        ]
+      }
+    },
+    "FRO": {
+      "status": {
+        "sovereignty": "autonomous_territory"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "FO",
+          "alpha_3": "FRO",
+          "numeric": 234
+        }
+      },
+      "name": {
+        "common_names": [
+          "Faroe Islands"
+        ]
+      }
+    },
+    "SWE": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "SE",
+          "alpha_3": "SWE",
+          "numeric": 752
+        }
+      },
+      "name": {
+        "common_names": [
+          "Sweden"
+        ]
+      }
+    },
+    "NOR": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "NO",
+          "alpha_3": "NOR",
+          "numeric": 578
+        }
+      },
+      "name": {
+        "common_names": [
+          "Norway"
+        ]
+      }
+    },
+    "FIN": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "FI",
+          "alpha_3": "FIN",
+          "numeric": 246
+        }
+      },
+      "name": {
+        "common_names": [
+          "Finland"
+        ]
+      }
+    },
+    "ISL": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "IS",
+          "alpha_3": "ISL",
+          "numeric": 352
+        }
+      },
+      "name": {
+        "common_names": [
+          "Iceland"
+        ]
+      }
+    },
+    "DEU": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "DE",
+          "alpha_3": "DEU",
+          "numeric": 276
+        }
+      },
+      "name": {
+        "common_names": [
+          "Germany"
+        ]
+      }
+    },
+    "AUT": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "AT",
+          "alpha_3": "AUT",
+          "numeric": 40
+        }
+      },
+      "name": {
+        "common_names": [
+          "Austria"
+        ]
+      }
+    },
+    "CHE": {
+      "status": {
+        "sovereignty": "sovereign_country"
+      },
+      "codes": {
+        "iso_3166_1": {
+          "alpha_2": "CH",
+          "alpha_3": "CHE",
+          "numeric": 756
+        }
+      },
+      "name": {
+        "common_names": [
+          "Switzerland"
+        ]
+      }
+    }
+  }
+}

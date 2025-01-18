@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Path to the schema file used for validation."
+    },
+    "data": {
+      "type": "object",
+      "description": "Contains country data keyed by ISO Alpha-2 codes.",
+      "patternProperties": {
+        "^[A-Z]{3}$": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "object",
+              "properties": {
+                "sovereignty": {
+                  "type": "string",
+                  "enum": ["sovereign_country", "autonomous_territory"]
+                }
+              },
+              "additionalProperties": false
+            },
+            "codes": {
+              "type": "object",
+              "properties": {
+                "iso_3166_1": {
+                  "type": "object",
+                  "properties": {
+                    "alpha_2": {
+                      "type": "string",
+                      "pattern": "^[A-Z]{2}$",
+                      "description": "ISO Alpha-2 country code."
+                    },
+                    "alpha_3": {
+                      "type": "string",
+                      "pattern": "^[A-Z]{3}$",
+                      "description": "ISO Alpha-3 country code."
+                    },
+                    "numeric": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "description": "ISO numeric country code."
+                    }
+                  },
+                  "required": ["alpha_2", "alpha_3", "numeric"],
+                  "additionalProperties": false
+                }
+              },
+              "required": ["iso_3166_1"],
+              "additionalProperties": false
+            },
+            "name": {
+              "type": "object",
+              "properties": {
+                "common_names": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "description": "List of common names for the country."
+                }
+              },
+              "required": ["common_names"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["status", "codes", "name"],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["$schema", "data"],
+  "additionalProperties": false
+}
